@@ -1,5 +1,5 @@
 const sumAll = function(value1, value2) {
-      if (!Number.isInteger(value1) || !Number.isInteger(value2)) return "ERROR";
+  if (!Number.isInteger(value1) || !Number.isInteger(value2)) return "ERROR";
   if (value1 < 0 || value2 < 0) return "ERROR";
   if (value1 > value2) {
     const temp = value1;
